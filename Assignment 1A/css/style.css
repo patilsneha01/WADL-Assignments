@@ -1,0 +1,406 @@
+body {
+    background: ivory ;/*ivory*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-body {
+    margin-left: 55px;
+}
+
+.navbar-top {
+    background: #fff;
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.fa-user-circle {
+    font-size: 24px;
+    color: #45a29e;
+}
+
+
+/* 
+.nav-bottom {
+    background: #1f2833;
+}
+
+
+.nav-bottom .navbar-nav li a{
+    color: #66fcf1 ;
+    font-size: 18px;
+    
+}
+
+.nav-bottom .navbar-nav li a:hover{
+     color: #1f2833;
+     font-weight: bold; 
+     background: #66fcf1;
+     border-radius: 10px;
+} */
+
+
+.sidebar i {
+    position: relative;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+}
+
+.sidebar #main-navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 5px;
+    max-width: 55px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1000;
+}
+.sidebar #main-navigation ul {
+    list-style: none;
+    padding: 0px;
+}
+.sidebar  #main-navigation ul li {
+    white-space: nowrap;
+}
+
+.sidebar #main-navigation ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    height: 55px;
+    line-height: 55px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.sidebar #main-navigation ul li a:before {
+    display: inline-block;
+    font-size: 30px;
+    color: #FFF;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+}
+  
+.sidebar #main-navigation ul li a:hover {
+    background-color: #66fcf1;
+    color: #1f2833;
+}
+
+.sidebar #main-navigation:hover {
+    max-width: 300px;
+}
+  
+.sidebar .btn {
+    color: #fff;
+}
+
+.sidebar button {
+    color: #fff;
+    font-size: 20px;
+    left: -13px;
+}
+
+.sidebar .btn i{
+    position: relative;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;  
+    left: -13px;
+}
+
+.sidebar .fa-chevron-down {
+    top: 4px;
+}
+
+.sidebar .dropdown-divider {
+    color: #fbfdf4;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    font-size: 20px;
+}
+
+.carousel-one {
+    color: #1f2833;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.carousel-one h3 {
+    color: #45a29e;
+}
+
+.carousel-two, .carousel-three {
+    padding-top: 150px;
+}
+
+.carousel-two {
+    color: rgb(3, 59, 42);
+}
+
+.about h1{
+    color: #45a29e;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.courses h1{
+    color: #45a29e;
+}
+
+
+.courses .arrow {
+    font-size: 42px;
+    padding-top: 160px;
+    
+    text-decoration: none;
+}
+
+.courses .arrow a {
+    
+    color: #45a29e;
+    text-decoration: none;
+}
+
+.courses .arrow:hover {
+    font-size: 46px;
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+
+.courses h4 {
+    color: #124a8f;
+}
+
+.more {
+    background: rgb(136, 170, 170);
+}
+
+.more i {
+    font-size: 34px;
+}
+
+.contact h1{
+    color: #45a29e;
+}
+
+.contact .form-c {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.contact form {
+    border-radius: 14px;
+    padding: 15px;
+    border: 2px solid rgb(31, 87, 87) !important;
+    background: rgb(136, 170, 170);
+}
+
+.error {
+    color: red;
+}
+
+.error-bottom {
+    border: 1px solid red !important;
+}
+
+#success {
+    color: green;
+}
+
+.contact h4 {
+    color: #124a8f;
+}
+
+.contact .icons{
+    color:#333;
+    padding:10px 0;
+}
+
+.contact .icons i{
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+
+.contact p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+  
+.fab {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+  
+.fab:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: #337ab7;
+}
+  
+.fa-facebook-f {
+    background: #3b5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #bc2a8d;
+    color: white;
+}
+
+.faq h1{
+    color: #45a29e;
+}
+
+.faq .accordion {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.accordion-header {
+    border: 1px solid #45a29e;
+    border-radius: 10px;
+}
+
+
+footer .links h4 {
+    color: #66fcf1;
+}
+
+footer .links a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(185, 181, 181);
+    font-size: 16px;
+}
+
+footer .icons {
+    font-size: 16px;
+    color: rgb(185, 181, 181);
+}
+
+footer .icons i {
+    padding-right: 14px;
+}
+
+
+
+footer p {
+    color: rgb(185, 181, 181);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.statistic {
+    display: flex;
+    margin: 100px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(31, 87, 87) !important;
+    box-shadow: 1px 2px gray;
+    height: auto;
+
+}
+
+.statistic #canvas {
+    height: 900px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 635px) {
+    .navbar-top input {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .courses .arrow {
+        font-size: 42px;
+        color: #45a29e;
+        padding-top: 0px;
+    }
+    
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .about p{
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .faq .accordion {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact .icons i{
+        font-size: 14px;
+    }
+
+    .contact p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width: 973px) {
+    .carousel-caption {
+        font-size: 14px;
+    }
+}
+
+

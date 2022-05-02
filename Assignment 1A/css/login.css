@@ -1,0 +1,45 @@
+body {
+    background: #45a29e;
+}
+
+.login_form {
+    margin-top: 25%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form .btn {
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.label_text {
+    font-size: 12px;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+
+.signup_form {
+    background: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nameErr {
+    color: red;
+}
